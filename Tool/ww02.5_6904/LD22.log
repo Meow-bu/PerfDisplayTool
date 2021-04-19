@@ -1,0 +1,103 @@
+
+-----------------------------------------------------------------------------------------
+Command-line: imports\mediasdk\mfx_player.exe -i Clip\bbb_sunflower_2160p_60fps_normal.mp4 -hw -d3d11 -async 3 -perf_opt -no_render -priority 1 -d3d11 -n 200000 
+ComputerName                  : DESKTOP-84QIL34
+GraphicName                   : Intel(R) Graphics i gfx-driver-ci-master-6904 DCH ReleaseInternal, 30.20.16.9999, 1/7/2021 ww2.4
+IPP                           : 8.1.1 (r42291)
+  Build                       : 42291
+  Target CPU                  : l9
+  Name                        : ippIP AVX2 (l9)
+  Build date                  : Apr 10 2014
+Time                          : 2021/01/11 8:44:49
+Boot time                     : 2021/01/11 8:43:41
+Up time                       : 0:08:16
+Build                         : win64 - 11.8.2020 22:57:2 
+Memory Private                : 1.97 M
+Memory AvailPhys              : 13675.23 M
+D3D11 Support                 : ON
+Seed                          : 496781
+Container                     : MP4ATOM
+Video                         : H264
+Resolution                    : 3840x2160
+Buffering                     : 94.3
+FileName                      : Clip\bbb_sunflower_2160p_60fps_normal.mp4
+FileSize                      : 642.04 M
+Input bitstream buffer        : 67108864
+CompleteFrame Mode            : off
+Graphic VendorID 0            : 0x8086
+Graphic DeviceID 0            : 0x9a49
+Graphic Driver Version 0      : 0.0.0.0
+Graphic VendorID 1            : 0x1414
+Graphic DeviceID 1            : 0x8c
+Graphic Driver Version 1      : 0.0.0.0
+INFO:    MFXInitEx (impl=MFX_IMPL_HARDWARE_ANY|MFX_IMPL_VIA_D3D11, pVer=1.33, ExternalThreads=0 session=0x000001B7ACF251F8
+INFO:    Required API version is 1.33
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path is found
+INFO:    loading library C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_24f8acb58abfbeb7\libmfxhw64.dll
+INFO:    invoking LoadLibrary(C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_24f8acb58abfbeb7\libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_24f8acb58abfbeb7\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.33,ExtThreads=0,session=0x000001B7ACF40D70)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+INFO:    media adapter type is 1
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path isn't found
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading library C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    invoking LoadLibrary(C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll)
+WARNING: can't find DLL: GetLastErr()=0x7e
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading default library libmfxhw64.dll
+INFO:    invoking LoadLibrary(libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_24f8acb58abfbeb7\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.33,ExtThreads=0,session=0x000001B7B252E000)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+INFO:    MFXClose(0x0) returned 0
+Decoder                       : Hardware
+  Surface type                : D3D11 surface
+  External allocator          : yes
+  MFX API version             : 1.34
+  MFXImpl                     : MFX_IMPL_HARDWARE | MFX_IMPL_VIA_D3D11
+D3D back buffer format: DXGI_FORMAT_B8G8R8A8_UNORM
+Crop XxY WxH                  : 0x0 3840x2160
+PicStruct                     : 1
+Framerate                     : 60.00
+Input bitstream buffer        : 67108864
+Surfaces dec+rnd              : NV12x3840x2160x12 : 10(dec) + 1(ren) - 1 + 2(dec:async) + 0(ren:async)
+Number threads                : 0
+.............................................................................................................................................................................................................................................................................................................................................................................................
+
+Total time                    : 16.05 sec
+Number decoded frames         : 38072
+Total fps                     : 2372.470 fps
+Decode : async queue          : max: 2, avr: 0.68
+VPP    : number frames        : 38072
+VPP    : async queue          : max: 0, avr: 0.00
+CPU usage                     : 15.8831
+INFO:    MFXClose(0x0) returned 0
+
+PASS

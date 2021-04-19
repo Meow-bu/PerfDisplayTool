@@ -1,0 +1,111 @@
+
+-----------------------------------------------------------------------------------------
+Command-line: imports\mediasdk\mfx_player.exe -i:hevc Clip\Shanghai_5120x2880_30fps_600f_444_10.bin -hw -d3d11 -async 3 -perf_opt -no_render -priority 1 -d3d11 -n 200000 -f 30 -decode_plugin_guid 33a61c0b4c27454ca8d85dde757c6f8e 
+ComputerName                  : DESKTOP-BJHDBVR
+GraphicName                   : Intel(R) Graphics i gfx-driver-ci-master-6870 DCH ReleaseInternal, 30.20.16.9999, 1/4/2021 ww2.1
+IPP                           : 8.1.1 (r42291)
+  Build                       : 42291
+  Target CPU                  : l9
+  Name                        : ippIP AVX2 (l9)
+  Build date                  : Apr 10 2014
+Time                          : 2021/01/05 22:17:34
+Boot time                     : 2021/01/05 22:13:23
+Up time                       : 0:04:11
+Build                         : win64 - 17.11.2020 19:55:41
+Memory Private                : 1.96 M
+Memory AvailPhys              : 13493.06 M
+D3D11 Support                 : ON
+Seed                          : 251125
+Buffering                     : 100.0
+FileName                      : Clip\Shanghai_5120x2880_30fps_600f_444_10.bin
+FileSize                      : 84.06 M
+Container                     : RAW
+Video                         : HEVC
+Input bitstream buffer        : 1048576
+CompleteFrame Mode            : off
+Graphic VendorID 0            : 0x8086
+Graphic DeviceID 0            : 0x9a49
+Graphic Driver Version 0      : 0.0.0.0
+Graphic VendorID 1            : 0x1414
+Graphic DeviceID 1            : 0x8c
+Graphic Driver Version 1      : 0.0.0.0
+INFO:    MFXInitEx (impl=MFX_IMPL_HARDWARE_ANY|MFX_IMPL_VIA_D3D11, pVer=1.34, ExternalThreads=0 session=0x000002BF7B683EA8
+INFO:    Required API version is 1.34
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path is found
+INFO:    loading library C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    invoking LoadLibrary(C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x000002BF7B689F40)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+INFO:    media adapter type is 1
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path isn't found
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading library C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    invoking LoadLibrary(C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll)
+INFO:    loaded module C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x000002BF7D44E930)
+WARNING: library can't be load. MFXInit returned MFX_ERR_UNSUPPORTED 
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading default library libmfxhw64.dll
+INFO:    invoking LoadLibrary(libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x000002BF7D44E930)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+INFO:    MFXClose(0x0) returned 0
+Decoder                       : Hardware
+  Surface type                : D3D11 surface
+  External allocator          : yes
+  MFX API version             : 1.34
+  MFXImpl                     : MFX_IMPL_HARDWARE | MFX_IMPL_VIA_D3D11
+D3D back buffer format: DXGI_FORMAT_B8G8R8A8_UNORM
+INFO:    MFXVideoUSER_Load: uid=33-A6-1C-B-4C-27-45-4C-A8-D8-5D-DE-75-7C-6F-8E version=1
+INFO:    [PLUGIN]: Plugin loaded at: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\mfxplugin64_hw.dll
+INFO:    [PLUGIN]: "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\mfxplugin64_hw.dll::CreatePlugin" SUCCEED
+INFO:    [PLUGIN]: plugin type= 1
+Plugin: 33a61c0b4c27454ca8d85dde757c6f8e loaded
+Crop XxY WxH                  : 0x0 5120x2880
+PicStruct                     : 1
+Framerate                     : 30.00
+Input bitstream buffer        : 89128960
+Surfaces dec+rnd              : Y410x5120x2880x10 : 8(dec) + 1(ren) - 1 + 2(dec:async) + 0(ren:async)
+Number threads                : 0
+......
+
+Total time                    : 0.69 sec
+Number decoded frames         : 600
+Total fps                     : 871.027 fps
+Decode : async queue          : max: 2, avr: 1.07
+VPP    : number frames        : 600
+VPP    : async queue          : max: 0, avr: 0.00
+INFO:    [PLUGIN]:  MFXVideoUSER_Unregister for Type=1, returned 0
+INFO:    MFXVideoUSER_UnLoad : plugin with GUID=33-A6-1C-B-4C-27-45-4C-A8-D8-5D-DE-75-7C-6F-8E unloaded
+CPU usage                     : 12.7592
+INFO:    MFXClose(0x0) returned 0
+
+PASS
