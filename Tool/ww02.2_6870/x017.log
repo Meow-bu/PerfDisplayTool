@@ -1,0 +1,322 @@
+
+-----------------------------------------------------------------------------------------
+Command-line: imports\mediasdk\mfx_transcoder.exe -i:hevc Clip\netflix_foodmarket2_1080p60_15Mbps.bin -hw_strict -d3d11 -n 2000 -f 60 -async 3 -perf_opt -no_pipe_sync -priority 1 -h265 -PicStruct 0 -LowPower on -enc:p010 -SampleAdaptiveOffset 1 -BRefType 1 -encode_plugin_guid 6fadc791a0c2eb479ab6dcd5ea9da347 -CodecProfile 2 -CodecLevel 51 -TargetUsage 4 -GopPicSize 120 -GopRefDist 1 -IdrInterval 0 -RateControlMethod 1 -Bitrate 10000000 -InitialDelayInKB 625 -BufferSizeInKB 1250 -NumSlice 1 -NumRefFrame 0 -CAVLC off -PicTimingSEI on -UseRawRef off -decode_plugin_guid 33a61c0b4c27454ca8d85dde757c6f8e -enc:p010 -enc:shift 1 -dec:shift 1 -SampleAdaptiveOffset 1 
+ComputerName                  : DESKTOP-BJHDBVR
+GraphicName                   : Intel(R) Graphics i gfx-driver-ci-master-6870 DCH ReleaseInternal, 30.20.16.9999, 1/4/2021 ww2.1
+IPP                           : 8.1.1 (r42291)
+  Build                       : 42291
+  Target CPU                  : l9
+  Name                        : ippIP AVX2 (l9)
+  Build date                  : Apr 10 2014
+Time                          : 2021/01/05 22:19:40
+Boot time                     : 2021/01/05 22:13:23
+Up time                       : 0:06:17
+Build                         : win64 - 17.11.2020 19:55:41
+Memory Private                : 2.36 M
+Memory AvailPhys              : 13552.65 M
+D3D11 Support                 : ON
+Seed                          : 377171
+Buffering                     : 100.0
+FileName                      : Clip\netflix_foodmarket2_1080p60_15Mbps.bin
+FileSize                      : 17.90 M
+Container                     : RAW
+Video                         : HEVC
+Input bitstream buffer        : 1048576
+CompleteFrame Mode            : off
+Graphic VendorID 0            : 0x8086
+Graphic DeviceID 0            : 0x9a49
+Graphic Driver Version 0      : 0.0.0.0
+Graphic VendorID 1            : 0x1414
+Graphic DeviceID 1            : 0x8c
+Graphic Driver Version 1      : 0.0.0.0
+INFO:    MFXInitEx (impl=MFX_IMPL_HARDWARE_ANY|MFX_IMPL_VIA_D3D11, pVer=1.34, ExternalThreads=0 session=0x00000203D9C05928
+INFO:    Required API version is 1.34
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path is found
+INFO:    loading library C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    invoking LoadLibrary(C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x00000203D9C83D00)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+INFO:    media adapter type is 1
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path isn't found
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading library C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    invoking LoadLibrary(C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll)
+INFO:    loaded module C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x00000203E3B28980)
+WARNING: library can't be load. MFXInit returned MFX_ERR_UNSUPPORTED 
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading default library libmfxhw64.dll
+INFO:    invoking LoadLibrary(libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x00000203E3B28980)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+INFO:    MFXClose(0x0) returned 0
+Decoder                       : Hardware
+  Surface type                : D3D11 surface
+  External allocator          : yes
+  MFX API version             : 1.34
+  MFXImpl                     : MFX_IMPL_HARDWARE | MFX_IMPL_VIA_D3D11
+Encoder                       : Hardware
+  Surface type                : D3D11 surface
+  External allocator          : yes
+  MFX API version             : 1.34
+  MFXImpl                     : MFX_IMPL_HARDWARE | MFX_IMPL_VIA_D3D11
+D3D back buffer format: DXGI_FORMAT_B8G8R8A8_UNORM
+INFO:    MFXVideoUSER_Load: uid=33-A6-1C-B-4C-27-45-4C-A8-D8-5D-DE-75-7C-6F-8E version=1
+INFO:    [PLUGIN]: Plugin loaded at: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\mfxplugin64_hw.dll
+INFO:    [PLUGIN]: "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\mfxplugin64_hw.dll::CreatePlugin" SUCCEED
+INFO:    [PLUGIN]: plugin type= 1
+Plugin: 33a61c0b4c27454ca8d85dde757c6f8e loaded
+Crop XxY WxH                  : 0x0 1920x1080
+PicStruct                     : 1
+Framerate                     : 60.00
+Input bitstream buffer        : 16777216
+INFO:    MFXVideoUSER_Load: uid=6F-AD-C7-91-A0-C2-EB-47-9A-B6-DC-D5-EA-9D-A3-47 version=1
+INFO:    [PLUGIN]: Plugin loaded at: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\mfxplugin64_hw.dll
+INFO:    [PLUGIN]: "C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\mfxplugin64_hw.dll::CreatePlugin" SUCCEED
+INFO:    [PLUGIN]: plugin type= 2
+Plugin: 6fadc791a0c2eb479ab6dcd5ea9da347 loaded
+------------------MFXQuery SUCCEED-----------------
+AsyncDepth                    : 0    
+LowPower                      : 16   
+BRCParamMultiplier            : 0    
+FrameInfo.BitDepthLuma        : 10   
+FrameInfo.BitDepthChroma      : 10   
+FrameInfo.Shift               : 1    
+FrameInfo.FrameId.TemporalId  : 0    
+FrameInfo.FrameId.PriorityId  : 0    
+FrameInfo.FrameId.ViewId      : 0    
+FrameInfo.FourCC              : P010 
+FrameInfo.Width               : 1920 
+FrameInfo.Height              : 1088 
+FrameInfo.CropX               : 0    
+FrameInfo.CropY               : 0    
+FrameInfo.CropW               : 1920 
+FrameInfo.CropH               : 1080 
+FrameInfo.FrameRateExtN       : 60   
+FrameInfo.FrameRateExtD       : 1    
+FrameInfo.AspectRatioW        : 0    
+FrameInfo.AspectRatioH        : 0    
+FrameInfo.PicStruct           : 1    
+FrameInfo.ChromaFormat        : MFX_CHROMAFORMAT_YUV420
+CodecId                       : HEVC 
+CodecProfile                  : 2    
+CodecLevel                    : 51   
+NumThread                     : 0    
+TargetUsage                   : 4    
+GopPicSize                    : 120  
+GopRefDist                    : 1    
+GopOptFlag                    : 0    
+IdrInterval                   : 0    
+RateControlMethod             : 1    
+InitialDelayInKB              : 625  
+BufferSizeInKB                : 1250 
+TargetKbps                    : 10000
+MaxKbps                       : 0    
+NumSlice                      : 1    
+NumRefFrame                   : 0    
+EncodedOrder                  : 0    
+Protected                     : 0    
+IOPattern                     : 1    
+ExtCO.RateDistortionOpt       : 0    
+ExtCO.MECostType              : 0    
+ExtCO.MESearchType            : 0    
+ExtCO.MVSearchWindow.x        : 0    
+ExtCO.MVSearchWindow.y        : 0    
+ExtCO.EndOfSequence           : 0    
+ExtCO.FramePicture            : 0    
+ExtCO.CAVLC                   : 0    (32)
+ExtCO.NalHrdConformance       : 0    
+ExtCO.SingleSeiNalUnit        : 0    
+ExtCO.VuiVclHrdParameters     : 0    
+ExtCO.RefPicListReordering    : 0    
+ExtCO.ResetRefList            : 0    
+ExtCO.RefPicMarkRep           : 0    
+ExtCO.FieldOutput             : 0    
+ExtCO.IntraPredBlockSize      : 0    
+ExtCO.InterPredBlockSize      : 0    
+ExtCO.MVPrecision             : 0    
+ExtCO.MaxDecFrameBuffering    : 0    
+ExtCO.AUDelimiter             : 0    
+ExtCO.EndOfStream             : 0    
+ExtCO.PicTimingSEI            : 16   
+ExtCO.VuiNalHrdParameters     : 0    
+ExtCO2.IntRefType             : 0    
+ExtCO2.IntRefCycleSize        : 0    
+ExtCO2.IntRefQPDelta          : 0    
+ExtCO2.MaxFrameSize           : 0    
+ExtCO2.MaxSliceSize           : 0    
+ExtCO2.BitrateLimit           : 0    
+ExtCO2.MBBRC                  : 0    
+ExtCO2.ExtBRC                 : 0    
+ExtCO2.LookAheadDepth         : 0    
+ExtCO2.Trellis                : 0    
+ExtCO2.RepeatPPS              : 0    
+ExtCO2.BRefType               : 1    
+ExtCO2.AdaptiveI              : 0    
+ExtCO2.AdaptiveB              : 0    
+ExtCO2.NumMbPerSlice          : 0    
+ExtCO2.SkipFrame              : 0    
+ExtCO2.MinQPI                 : 0    
+ExtCO2.MaxQPI                 : 0    
+ExtCO2.MinQPP                 : 0    
+ExtCO2.MaxQPP                 : 0    
+ExtCO2.MinQPB                 : 0    
+ExtCO2.MaxQPB                 : 0    
+ExtCO2.FixedFrameRate         : 0    
+ExtCO2.DisableDeblockingIdc   : 0    
+ExtCO2.DisableVUI             : 0    
+ExtCO2.BufferingPeriodSEI     : 0    
+ExtCO2.UseRawRef              : 0    (32)
+HEVCPar.PicWidthInLumaSamples : 0    
+HEVCPar.PicHeightInLumaSamples: 0    
+HEVCPar.SampleAdaptiveOffset  : 1    
+HEVCPar.LCUSize               : 0    
+---------------------------------------------------
+Surfaces dec+rnd              : P010x1920x1088x20 : 11(dec) + 6(ren) - 1 + 2(dec:async) + 2(ren:async)
+---------------------- MFXInit SUCCEED -------------
+AsyncDepth                    : 5    (0)
+LowPower                      : 0    (16)
+BRCParamMultiplier            : 1    (0)
+FrameInfo.BitDepthLuma        : 10   
+FrameInfo.BitDepthChroma      : 10   
+FrameInfo.Shift               : 1    
+FrameInfo.FrameId.TemporalId  : 0    
+FrameInfo.FrameId.PriorityId  : 0    
+FrameInfo.FrameId.ViewId      : 0    
+FrameInfo.FourCC              : P010 
+FrameInfo.Width               : 1920 
+FrameInfo.Height              : 1088 
+FrameInfo.CropX               : 0    
+FrameInfo.CropY               : 0    
+FrameInfo.CropW               : 1920 
+FrameInfo.CropH               : 1080 
+FrameInfo.FrameRateExtN       : 60   
+FrameInfo.FrameRateExtD       : 1    
+FrameInfo.AspectRatioW        : 1    (0)
+FrameInfo.AspectRatioH        : 1    (0)
+FrameInfo.PicStruct           : 1    
+FrameInfo.ChromaFormat        : MFX_CHROMAFORMAT_YUV420
+CodecId                       : HEVC 
+CodecProfile                  : 2    
+CodecLevel                    : 51   
+NumThread                     : 0    
+TargetUsage                   : 4    
+GopPicSize                    : 120  
+GopRefDist                    : 1    
+GopOptFlag                    : 0    
+IdrInterval                   : 0    
+RateControlMethod             : 1    
+InitialDelayInKB              : 625  
+BufferSizeInKB                : 1250 
+TargetKbps                    : 10000
+MaxKbps                       : 10000(0)
+NumSlice                      : 1    
+NumRefFrame                   : 2    (0)
+EncodedOrder                  : 0    
+Protected                     : 0    
+IOPattern                     : 1    
+ExtCO.RateDistortionOpt       : 0    
+ExtCO.MECostType              : 0    
+ExtCO.MESearchType            : 0    
+ExtCO.MVSearchWindow.x        : 0    
+ExtCO.MVSearchWindow.y        : 0    
+ExtCO.EndOfSequence           : 0    
+ExtCO.FramePicture            : 0    
+ExtCO.CAVLC                   : 0    
+ExtCO.NalHrdConformance       : 16   
+ExtCO.SingleSeiNalUnit        : 0    
+ExtCO.VuiVclHrdParameters     : 0    
+ExtCO.RefPicListReordering    : 0    
+ExtCO.ResetRefList            : 0    
+ExtCO.RefPicMarkRep           : 0    
+ExtCO.FieldOutput             : 0    
+ExtCO.IntraPredBlockSize      : 0    
+ExtCO.InterPredBlockSize      : 0    
+ExtCO.MVPrecision             : 0    
+ExtCO.MaxDecFrameBuffering    : 0    
+ExtCO.AUDelimiter             : 32   
+ExtCO.EndOfStream             : 0    
+ExtCO.PicTimingSEI            : 16   
+ExtCO.VuiNalHrdParameters     : 16   
+ExtCO2.IntRefType             : 0    
+ExtCO2.IntRefCycleSize        : 0    
+ExtCO2.IntRefQPDelta          : 0    
+ExtCO2.MaxFrameSize           : 0    
+ExtCO2.MaxSliceSize           : 0    
+ExtCO2.BitrateLimit           : 0    
+ExtCO2.MBBRC                  : 32   
+ExtCO2.ExtBRC                 : 32   
+ExtCO2.LookAheadDepth         : 0    
+ExtCO2.Trellis                : 0    
+ExtCO2.RepeatPPS              : 32   
+ExtCO2.BRefType               : 1    
+ExtCO2.AdaptiveI              : 0    
+ExtCO2.AdaptiveB              : 0    
+ExtCO2.NumMbPerSlice          : 0    
+ExtCO2.SkipFrame              : 0    
+ExtCO2.MinQPI                 : 22   
+ExtCO2.MaxQPI                 : 63   
+ExtCO2.MinQPP                 : 22   
+ExtCO2.MaxQPP                 : 63   
+ExtCO2.MinQPB                 : 22   
+ExtCO2.MaxQPB                 : 63   
+ExtCO2.FixedFrameRate         : 0    
+ExtCO2.DisableDeblockingIdc   : 0    
+ExtCO2.DisableVUI             : 0    
+ExtCO2.BufferingPeriodSEI     : 0    
+ExtCO2.UseRawRef              : 0    
+HEVCPar.PicWidthInLumaSamples : 1920 
+HEVCPar.PicHeightInLumaSamples: 1080 
+HEVCPar.SampleAdaptiveOffset  : 1    
+HEVCPar.LCUSize               : 64   
+---------------------------------------------------
+Number threads                : 0
+...
+
+Total time                    : 0.48 sec
+Number decoded frames         : 300
+Total fps                     : 623.089 fps
+Decode : async queue          : max: 0, avr: 0.00
+VPP    : number frames        : 300
+VPP    : async queue          : max: 0, avr: 0.00
+INFO:    [PLUGIN]:  MFXVideoUSER_Unregister for Type=1, returned 0
+INFO:    MFXVideoUSER_UnLoad : plugin with GUID=33-A6-1C-B-4C-27-45-4C-A8-D8-5D-DE-75-7C-6F-8E unloaded
+Encode : number frames        : 300
+Encode : filesize             : 307200 bytes
+Encode : bitrate accuracy     : 0.05
+Encode : fps                  : 0.00
+INFO:    [PLUGIN]:  MFXVideoUSER_Unregister for Type=2, returned 0
+INFO:    MFXVideoUSER_UnLoad : plugin with GUID=6F-AD-C7-91-A0-C2-EB-47-9A-B6-DC-D5-EA-9D-A3-47 unloaded
+Encode : async queue          : max: 3, avr: 2.31
+CPU usage                     : 16.2263
+INFO:    MFXClose(0x0) returned 0
+
+PASS

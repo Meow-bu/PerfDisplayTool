@@ -1,0 +1,12 @@
+Summary: 
+CPU Latency Tag,Hit Count,Average (ms),Minimum (ms),Maximum (ms)
+CalcPrivateVideoDecoderOutputViewSize_D3D11_1,600,0.001,0.001,0.020
+CodechalDecode::Execute,600,0.608,0.347,31.526
+CodechalDecodeHevcG12::DecodeStateLevel,1200,0.213,0.110,22.957
+CodechalDecodeHevcG12::SetFrameStates,600,0.090,0.021,11.061
+CreateVideoDecoder_D3D11_1,1,17.231,17.231,17.231
+DestroyVideoDecoder_D3D11_1,1,0.000,0.000,0.000
+First Frame Time,1,68.295,68.295,68.295
+VideoDecoderBeginFrame_WDDM2_4_D3D11_1,600,0.002,0.001,0.009
+VideoDecoderEndFrame_D3D11_1,600,0.059,0.044,0.140
+VideoDecoderSubmitBuffers_D3D11_1,600,0.678,0.360,31.556

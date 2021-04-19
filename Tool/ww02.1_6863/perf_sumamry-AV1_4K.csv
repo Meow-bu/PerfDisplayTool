@@ -1,0 +1,20 @@
+Summary: 
+CPU Latency Tag,Hit Count,Average (ms),Minimum (ms),Maximum (ms)
+CalcPrivateVideoDecoderOutputViewSize_D3D11_1,8290,0.001,0.001,0.031
+CreateVideoDecoder_D3D11_1,1,17.814,17.814,17.814
+DestroyVideoDecoder_D3D11_1,1,0.000,0.000,0.000
+First Frame Time,1,74.599,74.599,74.599
+VideoDecoderBeginFrame_WDDM2_4_D3D11_1,8290,0.006,0.004,0.518
+VideoDecoderEndFrame_D3D11_1,8290,0.006,0.005,0.590
+VideoDecoderSubmitBuffers_D3D11_1,8290,4.243,3.342,14.535
+decode::Av1BasicFeature::Init,1,1.527,1.527,1.527
+decode::Av1BasicFeature::Update,8290,0.007,0.004,0.555
+decode::Av1DecodePktG12::PackPictureLevelCmds,265280,0.105,0.074,2.514
+decode::Av1DecodePktG12::PackTileLevelCmds,265280,0.003,0.003,2.602
+decode::Av1DecodePktG12::Submit,265280,0.128,0.096,7.440
+decode::Av1PipelineG12::Execute0,8290,0.001,0.000,0.045
+decode::Av1PipelineG12::Execute1,8290,4.189,3.295,14.461
+decode::Av1PipelineG12::Execute2,8290,0.002,0.001,0.244
+decode::Av1PipelineG12::Prepare0,8290,0.002,0.001,0.044
+decode::Av1PipelineG12::Prepare1,8290,0.017,0.011,3.783
+decode::Av1PipelineG12::Prepare2,8290,0.002,0.001,0.315

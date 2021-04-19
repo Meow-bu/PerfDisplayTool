@@ -1,0 +1,844 @@
+
+-----------------------------------------------------------------------------------------
+Command-line: imports\mediasdk\mfx_transcoder.exe av1 -i:P010 Clip\netflix_foodmarket2_1080p60_15Mbps_300f.p010 -syncop_timeout 60000000 -o -hw_strict -d3d11 -n 300 -f 30 -async 1 -async_depth 1 -w 1920 -h 1080 -GopRefDist 1 -enc:P010 -dec:shift 1 -enc:shift 1 -u 1 -g 120 -DisableFrameEndUpdateCdf off -LowPower on -RateControlMethod 3 -QPI 45 -QPP 55 -NumRefFrame 2 
+ComputerName                  : DESKTOP-BJHDBVR
+GraphicName                   : Intel(R) Graphics i gfx-driver-ci-master-6876 DCH ReleaseInternal, 30.20.16.9999, 1/5/2021 ww2.2
+IPP                           : 8.1.1 (r42291)
+  Build                       : 42291
+  Target CPU                  : l9
+  Name                        : ippIP AVX2 (l9)
+  Build date                  : Apr 10 2014
+Time                          : 2021/01/06 18:09:53
+Boot time                     : 2021/01/06 18:03:35
+Up time                       : 0:27:45
+Build                         : win64 - 17.11.2020 19:55:41
+Memory Private                : 2.36 M
+Memory AvailPhys              : 13598.54 M
+D3D11 Support                 : ON
+Seed                          : 1665984
+FileName                      : Clip\netflix_foodmarket2_1080p60_15Mbps_300f.p010
+FileSize                      : 1779.79 M
+Container                     : RAW
+Video                         : P010
+Resolution                    : 1920x1080
+Input bitstream buffer        : 16777216
+CompleteFrame Mode            : off
+Graphic VendorID 0            : 0x8086
+Graphic DeviceID 0            : 0x9a49
+Graphic Driver Version 0      : 0.0.0.0
+Graphic VendorID 1            : 0x1414
+Graphic DeviceID 1            : 0x8c
+Graphic Driver Version 1      : 0.0.0.0
+INFO:    MFXInitEx (impl=MFX_IMPL_HARDWARE_ANY|MFX_IMPL_VIA_D3D11, pVer=1.34, ExternalThreads=0 session=0x0000020A60601C28
+INFO:    Required API version is 1.34
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path is found
+INFO:    loading library C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_150d3d9e19c2ad80\libmfxhw64.dll
+INFO:    invoking LoadLibrary(C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_150d3d9e19c2ad80\libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_150d3d9e19c2ad80\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x0000020A60692F20)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+INFO:    media adapter type is 1
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path isn't found
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading library C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    invoking LoadLibrary(C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll)
+INFO:    loaded module C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x0000020A69FE3460)
+WARNING: library can't be load. MFXInit returned MFX_ERR_UNSUPPORTED 
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading default library libmfxhw64.dll
+INFO:    invoking LoadLibrary(libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_150d3d9e19c2ad80\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x0000020A69FE3460)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+INFO:    MFXClose(0x0) returned 0
+Decoder                       : Hardware
+  Surface type                : D3D11 surface
+  External allocator          : yes
+  MFX API version             : 1.34
+  MFXImpl                     : MFX_IMPL_HARDWARE | MFX_IMPL_VIA_D3D11
+D3D back buffer format: DXGI_FORMAT_B8G8R8A8_UNORM
+Crop XxY WxH                  : 0x0 1920x1080
+PicStruct                     : 1
+Framerate                     : 30.00
+Input bitstream buffer        : 16777216
+------------------MFXQuery SUCCEED-----------------
+AsyncDepth                    : 1    
+LowPower                      : 16   
+BRCParamMultiplier            : 0    
+FrameInfo.BitDepthLuma        : 10   
+FrameInfo.BitDepthChroma      : 10   
+FrameInfo.Shift               : 1    
+FrameInfo.FrameId.TemporalId  : 0    
+FrameInfo.FrameId.PriorityId  : 0    
+FrameInfo.FrameId.ViewId      : 0    
+FrameInfo.FourCC              : P010 
+FrameInfo.Width               : 1920 
+FrameInfo.Height              : 1088 
+FrameInfo.CropX               : 0    
+FrameInfo.CropY               : 0    
+FrameInfo.CropW               : 1920 
+FrameInfo.CropH               : 1080 
+FrameInfo.FrameRateExtN       : 30   
+FrameInfo.FrameRateExtD       : 1    
+FrameInfo.AspectRatioW        : 0    
+FrameInfo.AspectRatioH        : 0    
+FrameInfo.PicStruct           : 1    
+FrameInfo.ChromaFormat        : MFX_CHROMAFORMAT_YUV420
+CodecId                       : AV1  
+CodecProfile                  : 0    
+CodecLevel                    : 0    
+NumThread                     : 0    
+TargetUsage                   : 1    
+GopPicSize                    : 120  
+GopRefDist                    : 1    
+GopOptFlag                    : 0    
+IdrInterval                   : 0    
+RateControlMethod             : 3    
+QPI                           : 45   
+BufferSizeInKB                : 0    
+QPP                           : 55   
+QPB                           : 0    
+NumSlice                      : 0    
+NumRefFrame                   : 2    
+EncodedOrder                  : 0    
+Protected                     : 0    
+IOPattern                     : 1    
+AV1.FrameWidth                : 0    
+AV1.FrameHeight               : 0    
+AV1.WriteIVFHeaders           : 0    
+AV1.UseAnnexB                 : 0    
+AV1.PackOBUFrame              : 0    
+AV1.InsertTemporalDelimiter   : 0    
+AV1.UniformTileSpacing        : 0    
+AV1.ContextUpdateTileIdPlus1  : 0    
+AV1.NumTileRows               : 0    
+AV1.NumTileColumns            : 0    
+AV1.NumTileGroups             : 0    
+AV1.NumTilesPerTileGroup      : 0,0,0,0,0,0,0,0
+AV1.TileWidthInSB             : 0,0,0,0,0,0,0,0
+AV1.TileHeightInSB            : 0,0,0,0,0,0,0,0
+AV1.EnableCdef                : 0    
+AV1.EnableRestoration         : 0    
+AV1.LoopFilterSharpness       : 0    
+AV1.InterpFilter              : 0    
+AV1.SegmentationMode          : 0    
+AV1.DisableCdfUpdate          : 0    
+AV1.DisableFrameEndUpdateCdf  : 32   
+AV1.EnableSuperres            : 0    
+AV1.SuperresScaleDenominator  : 0    
+AV1.StillPictureMode          :*DEBUG* task[1] Submitting: 1920x1080, frame_type=0
+  *DEBUG* task[1] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[2] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[2] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[3] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[3] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[4] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[4] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[5] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[5] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[6] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[6] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[7] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[7] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[8] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[8] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[9] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[9] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[10] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[10] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[11] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[11] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[12] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[12] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[13] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[13] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[14] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[14] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[15] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[15] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[16] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[16] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[17] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[17] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[18] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[18] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[19] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[19] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[20] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[20] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[21] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[21] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[22] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[22] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[23] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[23] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[24] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[24] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[25] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[25] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[26] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[26] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[27] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[27] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[28] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[28] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[29] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[29] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[30] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[30] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[31] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[31] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[32] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[32] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[33] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[33] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[34] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[34] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[35] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[35] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[36] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[36] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[37] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[37] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[38] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[38] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[39] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[39] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[40] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[40] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[41] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[41] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[42] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[42] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[43] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[43] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[44] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[44] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[45] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[45] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[46] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[46] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[47] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[47] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[48] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[48] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[49] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[49] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[50] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[50] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[51] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[51] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[52] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[52] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[53] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[53] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[54] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[54] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[55] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[55] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[56] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[56] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[57] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[57] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[58] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[58] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[59] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[59] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[60] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[60] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[61] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[61] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[62] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[62] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[63] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[63] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[64] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[64] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[65] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[65] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[66] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[66] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[67] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[67] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[68] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[68] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[69] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[69] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[70] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[70] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[71] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[71] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[72] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[72] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[73] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[73] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[74] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[74] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[75] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[75] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[76] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[76] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[77] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[77] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[78] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[78] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[79] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[79] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[80] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[80] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[81] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[81] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[82] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[82] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[83] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[83] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[84] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[84] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[85] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[85] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[86] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[86] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[87] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[87] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[88] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[88] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[89] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[89] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[90] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[90] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[91] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[91] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[92] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[92] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[93] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[93] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[94] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[94] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[95] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[95] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[96] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[96] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[97] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[97] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[98] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[98] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[99] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[99] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[100] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[100] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[101] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[101] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[102] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[102] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[103] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[103] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[104] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[104] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[105] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[105] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[106] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[106] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[107] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[107] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[108] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[108] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[109] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[109] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[110] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[110] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[111] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[111] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[112] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[112] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[113] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[113] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[114] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[114] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[115] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[115] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[116] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[116] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[117] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[117] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[118] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[118] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[119] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[119] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[120] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[120] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[121] Submitting: 1920x1080, frame_type=0
+  *DEBUG* task[121] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[122] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[122] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[123] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[123] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[124] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[124] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[125] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[125] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[126] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[126] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[127] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[127] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[128] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[128] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[129] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[129] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[130] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[130] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[131] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[131] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[132] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[132] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[133] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[133] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[134] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[134] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[135] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[135] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[136] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[136] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[137] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[137] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[138] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[138] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[139] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[139] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[140] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[140] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[141] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[141] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[142] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[142] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[143] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[143] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[144] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[144] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[145] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[145] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[146] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[146] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[147] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[147] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[148] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[148] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[149] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[149] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[150] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[150] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[151] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[151] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[152] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[152] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[153] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[153] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[154] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[154] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[155] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[155] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[156] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[156] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[157] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[157] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[158] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[158] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[159] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[159] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[160] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[160] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[161] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[161] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[162] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[162] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[163] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[163] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[164] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[164] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[165] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[165] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[166] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[166] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[167] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[167] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[168] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[168] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[169] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[169] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[170] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[170] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[171] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[171] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[172] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[172] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[173] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[173] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[174] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[174] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[175] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[175] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[176] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[176] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[177] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[177] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[178] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[178] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[179] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[179] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[180] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[180] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[181] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[181] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[182] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[182] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[183] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[183] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[184] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[184] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[185] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[185] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[186] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[186] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[187] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[187] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[188] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[188] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[189] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[189] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[190] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[190] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[191] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[191] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[192] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[192] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[193] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[193] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[194] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[194] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[195] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[195] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[196] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[196] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[197] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[197] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[198] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[198] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[199] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[199] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[200] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[200] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[201] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[201] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[202] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[202] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[203] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[203] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[204] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[204] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[205] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[205] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[206] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[206] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[207] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[207] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[208] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[208] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[209] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[209] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[210] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[210] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[211] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[211] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[212] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[212] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[213] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[213] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[214] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[214] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[215] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[215] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[216] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[216] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[217] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[217] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[218] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[218] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[219] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[219] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[220] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[220] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[221] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[221] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[222] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[222] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[223] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[223] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[224] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[224] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[225] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[225] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[226] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[226] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[227] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[227] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[228] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[228] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[229] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[229] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[230] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[230] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[231] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[231] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[232] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[232] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[233] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[233] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[234] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[234] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[235] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[235] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[236] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[236] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[237] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[237] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[238] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[238] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[239] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[239] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[240] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[240] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[241] Submitting: 1920x1080, frame_type=0
+  *DEBUG* task[241] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[242] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[242] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[243] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[243] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[244] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[244] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[245] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[245] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[246] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[246] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[247] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[247] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[248] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[248] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[249] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[249] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[250] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[250] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[251] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[251] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[252] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[252] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[253] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[253] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[254] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[254] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[255] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[255] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[256] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[256] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[257] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[257] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[258] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[258] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[259] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[259] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[260] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[260] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[261] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[261] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[262] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[262] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[263] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[263] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[264] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[264] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[265] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[265] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[266] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[266] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[267] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[267] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[268] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[268] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[269] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[269] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[270] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[270] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[271] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[271] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[272] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[272] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[273] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[273] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[274] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[274] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[275] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[275] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[276] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[276] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[277] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[277] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[278] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[278] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[279] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[279] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[280] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[280] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[281] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[281] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[282] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[282] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[283] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[283] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[284] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[284] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[285] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[285] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[286] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[286] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[287] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[287] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[288] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[288] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[289] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[289] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[290] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[290] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[291] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[291] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[292] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[292] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[293] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[293] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[294] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[294] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[295] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[295] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[296] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[296] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[297] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[297] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[298] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[298] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[299] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[299] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+*DEBUG* task[300] Submitting: 1920x1080, frame_type=1
+  *DEBUG* task[300] STATUS: ENCODE_OK (encoded size: 1024 bytes)!
+ 0    
+AV1.SwitchInterval            : 0    
+---------------------------------------------------
+Surfaces dec+rnd              : P010x1920x1088x1 : 1(dec) + 1(ren) - 1 + 0(dec:async) + 0(ren:async)
+---------------------- MFXInit SUCCEED -------------
+AsyncDepth                    : 1    
+LowPower                      : 0    (16)
+BRCParamMultiplier            : 1    (0)
+FrameInfo.BitDepthLuma        : 10   
+FrameInfo.BitDepthChroma      : 10   
+FrameInfo.Shift               : 1    
+FrameInfo.FrameId.TemporalId  : 0    
+FrameInfo.FrameId.PriorityId  : 0    
+FrameInfo.FrameId.ViewId      : 0    
+FrameInfo.FourCC              : P010 
+FrameInfo.Width               : 1920 
+FrameInfo.Height              : 1088 
+FrameInfo.CropX               : 0    
+FrameInfo.CropY               : 0    
+FrameInfo.CropW               : 1920 
+FrameInfo.CropH               : 1080 
+FrameInfo.FrameRateExtN       : 30   
+FrameInfo.FrameRateExtD       : 1    
+FrameInfo.AspectRatioW        : 1    (0)
+FrameInfo.AspectRatioH        : 1    (0)
+FrameInfo.PicStruct           : 1    
+FrameInfo.ChromaFormat        : MFX_CHROMAFORMAT_YUV420
+CodecId                       : AV1  
+CodecProfile                  : 0    
+CodecLevel                    : 0    
+NumThread                     : 0    
+TargetUsage                   : 1    
+GopPicSize                    : 120  
+GopRefDist                    : 1    
+GopOptFlag                    : 0    
+IdrInterval                   : 0    
+RateControlMethod             : 3    
+QPI                           : 45   
+BufferSizeInKB                : 6220 (0)
+QPP                           : 55   
+QPB                           : 60   (0)
+NumSlice                      : 0    
+NumRefFrame                   : 2    
+EncodedOrder                  : 0    
+Protected                     : 0    
+IOPattern                     : 1    
+AV1.FrameWidth                : 1920 
+AV1.FrameHeight               : 1080 
+AV1.WriteIVFHeaders           : 16   
+AV1.UseAnnexB                 : 32   
+AV1.PackOBUFrame              : 32   
+AV1.InsertTemporalDelimiter   : 32   
+AV1.UniformTileSpacing        : 16   
+AV1.ContextUpdateTileIdPlus1  : 1    
+AV1.NumTileRows               : 1    
+AV1.NumTileColumns            : 1    
+AV1.NumTileGroups             : 0    
+AV1.NumTilesPerTileGroup      : 0,0,0,0,0,0,0,0
+AV1.TileWidthInSB             : 30,0,0,0,0,0,0,0
+AV1.TileHeightInSB            : 17,0,0,0,0,0,0,0
+AV1.EnableCdef                : 32   
+AV1.EnableRestoration         : 32   
+AV1.LoopFilterSharpness       : 0    
+AV1.InterpFilter              : 1    
+AV1.SegmentationMode          : 0    
+AV1.DisableCdfUpdate          : 32   
+AV1.DisableFrameEndUpdateCdf  : 32   
+AV1.EnableSuperres            : 32   
+AV1.SuperresScaleDenominator  : 8    
+AV1.StillPictureMode          : 32   
+AV1.SwitchInterval            : 0    
+---------------------------------------------------
+Number threads                : 0
+sddIsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdIdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdIsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPdPsdPdPdPsdPdPdPsdPP
+
+Total time                    : 2.63 sec
+Number decoded frames         : 300
+Total fps                     : 114.044 fps
+Decode : async queue          : max: 0, avr: 0.00
+VPP    : number frames        : 300
+VPP    : async queue          : max: 0, avr: 0.00
+Encode : number frames        : 300
+Encode : filesize             : 307200 bytes
+Encode : bitrate accuracy     : 4.47
+Encode : fps                  : 595.46
+CPU usage                     : 9.0582
+INFO:    MFXClose(0x0) returned 0
+
+PASS

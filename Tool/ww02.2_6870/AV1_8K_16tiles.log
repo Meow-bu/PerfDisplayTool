@@ -1,0 +1,104 @@
+
+-----------------------------------------------------------------------------------------
+Command-line: imports\mediasdk\mfx_player.exe -i Clip\BikeraceSDRClip0_8k60_LIBAOM_16tiles_yuv420_10b_709_30mbps_1800f_gop60.ivf -hw -d3d11 -no_render 
+ComputerName                  : DESKTOP-BJHDBVR
+GraphicName                   : Intel(R) Graphics i gfx-driver-ci-master-6870 DCH ReleaseInternal, 30.20.16.9999, 1/4/2021 ww2.1
+IPP                           : 8.1.1 (r42291)
+  Build                       : 42291
+  Target CPU                  : l9
+  Name                        : ippIP AVX2 (l9)
+  Build date                  : Apr 10 2014
+Time                          : 2021/01/05 22:17:10
+Boot time                     : 2021/01/05 22:13:23
+Up time                       : 0:03:47
+Build                         : win64 - 17.11.2020 19:55:41
+Memory Private                : 1.93 M
+Memory AvailPhys              : 13500.09 M
+D3D11 Support                 : ON
+Seed                          : 227281
+Container                     : IVF
+Video                         : UNDEF
+Resolution                    : 7680x4320
+FileName                      : Clip\BikeraceSDRClip0_8k60_LIBAOM_16tiles_yuv420_10b_709_30mbps_1800f_gop60.ivf
+FileSize                      : 109.89 M
+Input bitstream buffer        : 115343360
+CompleteFrame Mode            : off
+Graphic VendorID 0            : 0x8086
+Graphic DeviceID 0            : 0x9a49
+Graphic Driver Version 0      : 0.0.0.0
+Graphic VendorID 1            : 0x1414
+Graphic DeviceID 1            : 0x8c
+Graphic Driver Version 1      : 0.0.0.0
+INFO:    MFXInitEx (impl=MFX_IMPL_HARDWARE_ANY|MFX_IMPL_VIA_D3D11, pVer=1.34, ExternalThreads=0 session=0x0000021858133BA8
+INFO:    Required API version is 1.34
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path is found
+INFO:    loading library C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    invoking LoadLibrary(C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x0000021858137510)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+INFO:    media adapter type is 1
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch\tracer" : RegOpenKeyExW()==0x2
+WARNING: can't find tracer registry key
+INFO:    Looking for MediaSDK in DriverStore
+INFO:    DriverStore path isn't found
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_CURRENT_USER\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch" : RegOpenKeyExW()==0x2
+WARNING: Can't open HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Dispatch : RegOpenKeyExA()==0x2
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading library C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    invoking LoadLibrary(C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll)
+INFO:    loaded module C:\Users\sas\Desktop\LUCAS_NEW\imports\mediasdk\libmfxsw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x0000021869A1DB30)
+WARNING: library can't be load. MFXInit returned MFX_ERR_UNSUPPORTED 
+INFO:    dxvaDevice.InitDXGI1(2) Failed
+INFO:    dxvaDevice.InitDXGI1(3) Failed
+INFO:    loading default library libmfxhw64.dll
+INFO:    invoking LoadLibrary(libmfxhw64.dll)
+INFO:    loaded module C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_b28162f9355dbef3\libmfxhw64.dll
+INFO:    MFXInitEx(MFX_IMPL_HARDWARE|MFX_IMPL_VIA_D3D11,ver=1.34,ExtThreads=0,session=0x0000021869A1DB30)
+INFO:    MFXQueryVersion returned API: 1.34
+INFO:    library loaded succesfully
+ERROR:   [WINREG]: Opening key "HKEY_CURRENT_USER\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+ERROR:   [WINREG]: Opening key "HKEY_LOCAL_MACHINE\Software\Intel\MediaSDK\Plugin" : RegOpenKeyExW()==0x2
+INFO:    MFXClose(0x0) returned 0
+Decoder                       : Hardware
+  Surface type                : D3D11 surface
+  External allocator          : yes
+  MFX API version             : 1.34
+  MFXImpl                     : MFX_IMPL_HARDWARE | MFX_IMPL_VIA_D3D11
+D3D back buffer format: DXGI_FORMAT_B8G8R8A8_UNORM
+Crop XxY WxH                  : 0x0 7680x4320
+PicStruct                     : 1
+Framerate                     : 1.00
+Input bitstream buffer        : 115343360
+Surfaces dec+rnd              : P010x7680x4320x28 : 28(dec) + 1(ren) - 1 + 0(dec:async) + 0(ren:async)
+Number threads                : 0
+d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-sd-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-sd-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-sd-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-sd-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-sd-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-sd-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-sd-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-ssd-d-sd-ssd-d-sd-ssd-d-sd-ss-
+
+Total time                    : 4.66 sec
+Number decoded frames         : 1799
+Total fps                     : 386.044 fps
+Decode : async queue          : max: 0, avr: 0.00
+VPP    : number frames        : 1799
+VPP    : async queue          : max: 0, avr: 0.00
+CPU usage                     : 12.1125
+INFO:    MFXClose(0x0) returned 0
+
+PASS
